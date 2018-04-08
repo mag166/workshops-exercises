@@ -1,0 +1,8 @@
+.border{
+    border-style: solid;
+}
+
+.redBorder{
+    border-style: solid;
+    border-color:red;
+}
