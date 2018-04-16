@@ -1,5 +1,5 @@
 def salesTax(number)
-    if(number.class == String)
+    if(number.is_a? String)
         puts "The input must be a number"
         return nil
     else
@@ -7,5 +7,5 @@ def salesTax(number)
     end
 end
 
-puts(salesTax(1))
+puts(salesTax(15.04))
 puts salesTax("I am a String")
