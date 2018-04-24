@@ -30,3 +30,12 @@ class Queue
         return str
     end
 end
+
+q = Queue.new
+q.enqueue("First In")
+q.enqueue("Second In")
+q.enqueue("Third In")
+puts q.show
+
+puts q.dequeue()
+puts q.show()

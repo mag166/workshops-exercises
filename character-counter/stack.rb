@@ -31,8 +31,10 @@ class Stack
 end
 
 b = Stack.new
-b.push("First In")
-b.push("Second In")
+b.push("2")
+b.push("6")
+b.push("-7")
+b.push("5")
 
 # b.pop
 puts b.show
